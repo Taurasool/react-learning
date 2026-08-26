@@ -3,6 +3,7 @@ import Footer from "./Components/Footer.tsx";
 import StudentCard from "./Components/StudentCard.tsx";
 import EmployeeCard from "./Props/Props.tsx";
 import ProductCard from "./Props/ProductCard.tsx";
+import TeacherCard from "./Props/TeacherCard.tsx";
 
 function App(){
     return (
@@ -18,6 +19,12 @@ function App(){
              <EmployeeCard name="Tauseef" salary={20000} />
 
              <ProductCard title= "card" price= {1500} rating={1} />
+
+
+
+             <TeacherCard name="tauseef" price={2000} rating={1} />
+             <TeacherCard name="rasool" price={3000} rating={2} />
+             <TeacherCard name="Rasool" price={4000} rating={3} />
         </>
     );
 }
