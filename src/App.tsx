@@ -1,11 +1,12 @@
-import Header from "./Component.tsx";
+import Header from "./Components/Component.tsx";
+import Footer from "./Components/Footer.tsx";
 
-function App() {
+function App(){
     return (
         <>
-            <Header />
+             <Header />
+             <Footer />
         </>
     );
 }
-
 export default App;
