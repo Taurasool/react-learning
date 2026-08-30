@@ -8,6 +8,8 @@ import Counter from "./Components/Counter.tsx";
 import ShowHide from "./Components/ShowHide.tsx";
 import CounterPlusThree from "./Components/CounterPlusThree.tsx";
 import Studentobject from "./Components/Studentobject.tsx";
+import Fruitsarray from "./Components/Fruitsarray.tsx";
+
 function App(){
     return (
         <>
@@ -35,6 +37,8 @@ function App(){
              <CounterPlusThree />
 
              <Studentobject />
+
+             <Fruitsarray />
 
         </>
     );
