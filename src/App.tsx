@@ -7,6 +7,7 @@ import TeacherCard from "./Props/TeacherCard.tsx";
 import Counter from "./Components/Counter.tsx";
 import ShowHide from "./Components/ShowHide.tsx";
 import CounterPlusThree from "./Components/CounterPlusThree.tsx";
+import Studentobject from "./Components/Studentobject.tsx";
 function App(){
     return (
         <>
@@ -32,6 +33,8 @@ function App(){
              <ShowHide />
 
              <CounterPlusThree />
+
+             <Studentobject />
 
         </>
     );
