@@ -15,7 +15,7 @@ function Counter() {
 
         <button onClick={()=> setCount(100)}> Reset </button>
         </>
-    )
+    );
 }
 
 export default Counter;

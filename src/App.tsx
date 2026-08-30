@@ -5,6 +5,7 @@ import EmployeeCard from "./Props/Props.tsx";
 import ProductCard from "./Props/ProductCard.tsx";
 import TeacherCard from "./Props/TeacherCard.tsx";
 import Counter from "./Components/Counter.tsx";
+import ShowHide from "./Components/ShowHide.tsx";
 
 function App(){
     return (
@@ -27,6 +28,11 @@ function App(){
              <TeacherCard name="Rasool" price={4000} rating={3} />
 
              <Counter />
+
+             <ShowHide />
+
+
+
         </>
     );
 }
