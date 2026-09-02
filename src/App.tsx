@@ -13,6 +13,8 @@ import Nameage from "./Components/Nameage.tsx";
 import EventHandling from "./Components/EventHandling.tsx";
 import InputShow from "./Components/InputShow.tsx";
 import CounterEvent from "./Components/CounterEvent.tsx";
+import HandleSubmit from "./Components/handleSubmit.tsx";
+import Buttonclick from "./Components/Buttonclick.tsx";
 
 
 function App(){
@@ -52,6 +54,10 @@ function App(){
              <InputShow />
 
              <CounterEvent />
+
+             <HandleSubmit />
+
+             <Buttonclick />
                
         </>
     );
