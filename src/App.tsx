@@ -8,7 +8,12 @@ import Counter from "./Components/Counter.tsx";
 import ShowHide from "./Components/ShowHide.tsx";
 import CounterPlusThree from "./Components/CounterPlusThree.tsx";
 import Studentobject from "./Components/Studentobject.tsx";
-import Fruitsarray from "./Components/Fruitsarray.tsx";
+import Fruitsarray from "./Components/Nameage.tsx";
+import Nameage from "./Components/Nameage.tsx";
+import EventHandling from "./Components/EventHandling.tsx";
+import InputShow from "./Components/InputShow.tsx";
+import CounterEvent from "./Components/CounterEvent.tsx";
+
 
 function App(){
     return (
@@ -40,7 +45,16 @@ function App(){
 
              <Fruitsarray />
 
+             <Nameage />
+
+             <EventHandling />
+
+             <InputShow />
+
+             <CounterEvent />
+               
         </>
     );
 }
 export default App;
+
