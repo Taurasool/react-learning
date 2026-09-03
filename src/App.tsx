@@ -25,6 +25,10 @@ import RegistrationForm from "./Components/RegistrationForm.tsx";
 import NameEmail from "./Components/NameEmail.tsx";
 import Checkbox from "./Components/checkbox.tsx";
 import Gender from "./Components/Gender.tsx";
+import City from "./Components/City.tsx";
+import Address from "./Components/Address.tsx";
+import Validation from "./Components/Address.tsx";
+import Timer from "./Components/Timer.tsx";
 
 function App(){
     return (
@@ -87,6 +91,14 @@ function App(){
              <Checkbox />
 
              <Gender />
+
+             <City />
+
+             <Address />
+
+             <Validation />
+
+             <Timer />
         </>
     );
 }
