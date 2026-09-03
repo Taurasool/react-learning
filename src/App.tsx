@@ -20,6 +20,7 @@ import Agecheck from "./Components/Agecheck.tsx";
 import AdminButton from "./Components/AdminButton.tsx";
 import LoadinSpinner from "./Components/LoadingSpinner.tsx";
 import PassFail from "./Components/PassFail.tsx";
+import LoginForm from "./Components/LoginForm.tsx";
 
 
 function App(){
@@ -73,6 +74,8 @@ function App(){
              <LoadinSpinner />
                
              <PassFail />  
+
+             <LoginForm />
         </>
     );
 }
