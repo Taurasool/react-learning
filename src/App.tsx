@@ -15,6 +15,11 @@ import InputShow from "./Components/InputShow.tsx";
 import CounterEvent from "./Components/CounterEvent.tsx";
 import HandleSubmit from "./Components/handleSubmit.tsx";
 import Buttonclick from "./Components/Buttonclick.tsx";
+import LoginLogout from "./Components/LoginLogoutTemp.tsx";
+import Agecheck from "./Components/Agecheck.tsx";
+import AdminButton from "./Components/AdminButton.tsx";
+import LoadinSpinner from "./Components/LoadingSpinner.tsx";
+import PassFail from "./Components/PassFail.tsx";
 
 
 function App(){
@@ -58,7 +63,16 @@ function App(){
              <HandleSubmit />
 
              <Buttonclick />
+
+             <LoginLogout />
+
+             <Agecheck />
+
+             <AdminButton />
+
+             <LoadinSpinner />
                
+             <PassFail />  
         </>
     );
 }
