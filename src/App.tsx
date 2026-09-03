@@ -21,6 +21,7 @@ import AdminButton from "./Components/AdminButton.tsx";
 import LoadinSpinner from "./Components/LoadingSpinner.tsx";
 import PassFail from "./Components/PassFail.tsx";
 import LoginForm from "./Components/LoginForm.tsx";
+import RegistrationForm from "./Components/RegistrationForm.tsx";
 
 
 function App(){
@@ -76,6 +77,8 @@ function App(){
              <PassFail />  
 
              <LoginForm />
+
+             <RegistrationForm />
         </>
     );
 }
