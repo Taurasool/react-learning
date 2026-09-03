@@ -22,7 +22,9 @@ import LoadinSpinner from "./Components/LoadingSpinner.tsx";
 import PassFail from "./Components/PassFail.tsx";
 import LoginForm from "./Components/LoginForm.tsx";
 import RegistrationForm from "./Components/RegistrationForm.tsx";
-
+import NameEmail from "./Components/NameEmail.tsx";
+import Checkbox from "./Components/checkbox.tsx";
+import Gender from "./Components/Gender.tsx";
 
 function App(){
     return (
@@ -79,6 +81,12 @@ function App(){
              <LoginForm />
 
              <RegistrationForm />
+
+             <NameEmail />
+
+             <Checkbox />
+
+             <Gender />
         </>
     );
 }
