@@ -29,6 +29,9 @@ import City from "./Components/City.tsx";
 import Address from "./Components/Address.tsx";
 import Validation from "./Components/Address.tsx";
 import Timer from "./Components/Timer.tsx";
+import APIFetch from "./Components/APIfetch.tsx";
+import BrowserTitle from "./Components/browsertitle.tsx";
+import LocalStorage from "./Components/LocalStorage.tsx";
 
 function App(){
     return (
@@ -99,6 +102,12 @@ function App(){
              <Validation />
 
              <Timer />
+
+             <APIFetch />
+
+             <BrowserTitle />
+
+             <LocalStorage />
         </>
     );
 }
